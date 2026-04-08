@@ -1,0 +1,15 @@
+# Generated model artifacts (can exceed GitHub file size limits)
+output/*.pth
+output/*.pt
+output/*.pkl
+outputs/*.pth
+outputs/*.pt
+outputs/*.pkl
+
+# Local environments and Python caches
+.venv/
+__pycache__/
+*.pyc
+
+# Large local training artifacts
+cyclegan_weights.pt
